@@ -176,11 +176,33 @@ textarea.message{
 
 }
 
-.portfolioImages {
+.portfolioImagesContainer {
 
 	margin: 0 auto;
-	background-color: yellow;
 	min-height: 200px;    
-	padding-left: 60px;
+	padding-left: 42px;
+
+}
+
+.imageBanner {
+    position: relative;
+    width: 240px;
+    float: left;
+    padding: 10px;
+}
+
+
+.imageBanner p {
+
+    position: absolute;
+    left: 10px;
+    padding: 10px;
+    height: 22px;
+    width: 220px;
+    color: #FFF;
+    margin-top: 128px;
+    background-color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    text-align: center;
 
 }
